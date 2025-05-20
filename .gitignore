@@ -1,3 +1,4 @@
 node_modules
-Cloud*
+Cloud.js
+Cloud.d.ts
 package-lock.json
