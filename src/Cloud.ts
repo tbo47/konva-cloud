@@ -100,6 +100,12 @@ export class Cloud extends Path {
             this.scaleX(1)
             this.scaleY(1)
         })
+        this.hitFunc((context) => {
+            context.beginPath()
+            context.rect(4, 3, this.width() - 15, this.height() - 15)
+            context.closePath()
+            context.fillStrokeShape(this)
+        })
     }
     adjustPath(width: number, height: number) {
         const p = CLOUDS[this.#pattern]
