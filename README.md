@@ -1,1 +1,1 @@
-[Moved here](../konva-components/)
+[Moved here](https://github.com/tbo47/konva-components)
